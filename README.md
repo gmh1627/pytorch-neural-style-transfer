@@ -34,3 +34,6 @@
   - `torchvision`：用于图像处理和预训练模型
   - `PIL` (或 `Pillow`)：用于图像加载和保存
   - `tqdm`：用于显示训练进度条
+  
+### 3.效果展示
+详见[这篇文章](https://blog.csdn.net/weixin_73004416/article/details/141905688)
