@@ -1,11 +1,11 @@
 # pytorch-neural-style-transfer
-运用pytorch和深度学习实现图像的神经风格迁移
+运用pytorch和深度学习实现图像的风格迁移
 ## 1.各代码文件详解
 ### 1.1 `train.py`
-`train.py` 文件负责训练神经风格迁移模型。
+`train.py` 文件负责训练风格迁移神经网络。
 - **加载内容和风格图片**：使用 `utils.load_image` 函数加载并预处理内容和风格图片。
 - **初始化生成图像**：将内容图像加上随机噪声作为初始生成图像。
-- **加载模型**：实例化并加载神经风格迁移模型。
+- **加载模型**：实例化并加载风格迁移模型。
 - **设置优化器和损失函数**：使用 Adam 优化器和均方误差损失函数。
 - **定义内容损失和风格损失的计算函数**：包括 `_compute_content_loss`, `compute_content_loss`, `gram_matrix`, `_compute_style_loss`, `compute_style_loss`, 和 `total_loss`。
 - **计算目标内容图片和风格图片的特征**：通过模型提取内容和风格特征。
